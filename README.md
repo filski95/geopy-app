@@ -6,3 +6,6 @@ Customized functionality of the geoapp (measurements module). Implemented Custom
 by linking logged in users to searches they made.
 
 Look of the site neglected intentionally, just basic bootstrap5.
+
+
+project not setup for an actual deployment - DEBUG = TRUE + secret key visible - > intended.
