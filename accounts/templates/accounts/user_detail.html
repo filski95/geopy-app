@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Search history
+{% endblock title %}
+
+{% block content %}
+
+    <div>
+        <h4>{{user.username}}, here are your last checks:</h4> 
+        <ul>
+            {% for record in current_user_records %}
+            <li>{{record}}</li>
+    
+        {% endfor %}
+        </ul>
+    </div>
+
+{% endblock content %}
+

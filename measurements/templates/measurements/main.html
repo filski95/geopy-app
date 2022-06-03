@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+Location App
+{% endblock title %}
+
+
+
+{% block content %} 
+<br>
+<form  style="background-color:pink" class="form-control" action="" method="POST" autocomplete="off">{% csrf_token %}
+    <h3>{{ distance_message }}</h1>
+        <p>{{map|safe}}</p>
+    <hr>
+    {{form|crispy}}
+        {% if user.is_authenticated %}
+        <button type="submit" class="btn btn-primary">Calculate</button> |
+        <a class="btn btn-success" href="{% url 'measurements:measurements' %}">Refresh</a>
+    {% else %}
+        <h3>Please log in to use the app!</h3>
+
+    {% endif %}
+
+    <hr>
+    This product includes GeoLite2 data created by MaxMind, available from
+    <br>
+   <a href="https://www.maxmind.com">https://www.maxmind.com</a>.
+</form>
+
+
+
+{% endblock content %}

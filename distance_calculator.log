@@ -1,0 +1,34 @@
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.05 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.01 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.03 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:django.utils.autoreload:/Users/fafa95/django_projects/geo_project/measurements/deco.py changed, reloading.
+INFO:root:Location check with id 160 took 0.04 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 2 took 4.8 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: testuser, Promoted: False
+INFO:root:Location check with id 2 took 2.03 seconds. Starting location: Sosnowiec, Destination: Maczki, User: testuser2, Promoted: True
+INFO:root:Location check with id 1 took 0.01 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: testuser, Promoted: False
+INFO:root:Location check with id 1 took 0.0 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: testuser, Promoted: False
+INFO:root:Location check with id 1 took 0.0 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: testuser, Promoted: False
+INFO:root:Location check with id 1 took 0.0 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: testuser, Promoted: False
+INFO:root:Location check with id 160 took 0.03 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 160 took 0.03 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: False
+INFO:root:Location check with id 2 took 4.84 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: testuser, Promoted: False
+INFO:root:Location check with id 2 took 1.94 seconds. Starting location: Sosnowiec, Destination: Maczki, User: testuser2, Promoted: True
+INFO:root:Location check with id 1 took 0.01 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: testuser, Promoted: False
+INFO:root:Location check with id 1 took 0.0 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: testuser, Promoted: False
+INFO:root:Location check with id 1 took 0.0 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: testuser, Promoted: False
+INFO:root:Location check with id 1 took 0.0 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: testuser, Promoted: False
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: True
+INFO:root:Location check with id 160 took 0.01 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: True
+INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: True
+INFO:root:Location check with id 161 took 1.85 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+
+
+{% block title %}PROMOTE YOURSELF{% endblock title %}
+
+{% block content %}
+
+<div class="d-grid gap-2">
+    {% if user.promotion %} 
+    <h3>You have <span class="st">Premium </span>account right now! To go free again click below</h3>
+        <a href="{% url 'accounts:toggle' %}" class="btn btn-warning btn-lg"  >Go Free</a> 
+    {% else %}
+    <h3>You have free account right now! Click below to get premium</h3>
+        <a href="{% url 'accounts:toggle' %}" class="btn btn-success btn-lg"   >Promote!</a>
+    {% endif %}
+    
+ 
+</div>
+
+{% endblock content %}
+

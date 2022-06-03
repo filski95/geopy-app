@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% if user.is_authenticated %}
+    {% if user.promotion %}
+        <p>Welcome, {{user.username}}! <span class="st">&ltpremium account></span> </p>
+    {% else %}
+    <p>Welcome, {{user.username}}! <span class="st">&ltfree account></span> </p>
+    {% endif %}
+
+{% else %}
+    <p id="absolute">You are not logged in</p>
+{% endif %}
+    <br>
+    <div>
+       <h4> Last checked on the app:</h4>
+        <ul>
+        {% for record in last_records %}
+            <li>{{record}}</li>
+        {% endfor %}
+        </ul>
+    </div>
+
+{% endblock content %}
+
