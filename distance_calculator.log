@@ -32,3 +32,21 @@ INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czela
 INFO:root:Location check with id 160 took 0.01 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: True
 INFO:root:Location check with id 160 took 0.02 seconds. Starting location: Czeladz, Destination: Sosnowiec, User: user1, Promoted: True
 INFO:root:Location check with id 161 took 1.85 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True
+INFO:root:Location check with id 161 took 0.03 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True
+INFO:root:Location check with id 161 took 0.02 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True
+INFO:root:Location check with id 161 took 0.02 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True
+INFO:root:Location check with id 161 took 0.02 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True
+INFO:django.utils.autoreload:/Users/fafa95/django_projects/geo_project/geoapp/views.py changed, reloading.
+INFO:root:Location check with id 161 took 0.05 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True
+INFO:django.utils.autoreload:/Users/fafa95/django_projects/geo_project/geoapp/views.py changed, reloading.
+INFO:root:Location check with id 161 took 0.03 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True
+INFO:root:Location check with id 161 took 0.02 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True
+INFO:root:Location check with id 161 took 0.02 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True
+INFO:root:Location check with id 161 took 0.01 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: True
+INFO:root:Location check with id 161 took 0.02 seconds. Starting location: San Diego, Destination: Helsinki, User: admin, Promoted: False
+INFO:root:Location check with id 162 took 4.88 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: False
+INFO:root:Location check with id 162 took 0.02 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: True
+INFO:root:Location check with id 163 took 1.77 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: True
+INFO:root:Location check with id 163 took 0.02 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: True
+INFO:root:Location check with id 163 took 0.02 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: True
+INFO:root:Location check with id 163 took 0.02 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: True

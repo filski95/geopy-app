@@ -6,10 +6,19 @@
 <form action="" method="POST">{% csrf_token %}
     {% if request.GET.next %}
         You must be logged in to see this content!
+        {{form.as_p}}
+        <input type="submit">
+        </form>
+    
     {% elif user.is_authenticated %}
         <h1>It turns out that you have no permissions to see this content. Restricted to admin only.</h1>
+    
+    {% elif user.is_anonymous %}
+    {{form.as_p}}
+    <input type="submit">
+    </form>
+
+
     {% endif %}
-{{form.as_p}}
-<input type="submit">
-</form>
+
 {% endblock content%}

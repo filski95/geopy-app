@@ -2,7 +2,7 @@ from textwrap import wrap
 
 from django.contrib.auth.decorators import login_required
 from django.http import Http404
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from measurements.models import Measurement
 
 from . import deco
@@ -22,4 +22,5 @@ def surprise(request):
     render template for restriced access page.
     no additional logic apart from decorators.
     """
+
     return render(request, "geoapp/surprise.html")
