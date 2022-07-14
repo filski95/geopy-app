@@ -50,3 +50,15 @@ INFO:root:Location check with id 163 took 1.77 seconds. Starting location: Sosno
 INFO:root:Location check with id 163 took 0.02 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: True
 INFO:root:Location check with id 163 took 0.02 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: True
 INFO:root:Location check with id 163 took 0.02 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: True
+INFO:root:Location check with id 163 took 0.02 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: False
+INFO:root:Location check with id 163 took 0.03 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: False
+INFO:root:Location check with id 163 took 0.02 seconds. Starting location: Sosnowiec, Destination: Bedzin, User: admin, Promoted: False
+INFO:root:Location check with id 164 took 4.96 seconds. Starting location: Sosnowiec, Destination: Los Angeles, User: admin, Promoted: False
+INFO:root:Location check with id 164 took 0.02 seconds. Starting location: Sosnowiec, Destination: Los Angeles, User: admin, Promoted: True
+INFO:root:Location check with id 165 took 1.83 seconds. Starting location: Sosnowiec, Destination: Los Angeles, User: admin, Promoted: True
+INFO:root:Location check with id 165 took 0.02 seconds. Starting location: Sosnowiec, Destination: Los Angeles, User: admin, Promoted: True
+INFO:root:Location check with id 165 took 0.03 seconds. Starting location: Sosnowiec, Destination: Los Angeles, User: admin, Promoted: True
+INFO:root:Location check with id 165 took 0.02 seconds. Starting location: Sosnowiec, Destination: Los Angeles, User: admin, Promoted: True
+INFO:root:Location check with id 165 took 0.02 seconds. Starting location: Sosnowiec, Destination: Los Angeles, User: admin, Promoted: True
+INFO:root:Location check with id 165 took 0.05 seconds. Starting location: Sosnowiec, Destination: Los Angeles, User: admin, Promoted: True
+INFO:root:Location check with id 165 took 0.02 seconds. Starting location: Sosnowiec, Destination: Los Angeles, User: admin, Promoted: True

@@ -58,7 +58,7 @@ def _prepare_map(
 
 def _return_lat_lon(instance):
     """Instaace == Measurement object with "current_location" and "destination" provided by the user.
-    -> data provided by the user should be used as argument to geolocator.
+    -> data provided by the user should be used as arguments to geolocator.
     """
     geolocator = Nominatim(user_agent="measurements")
 
@@ -71,7 +71,10 @@ def _return_lat_lon(instance):
 
 
 def _calculate_distance(starting_location: tuple[float, float], destination: tuple[float, float]) -> float:
-    """' current_location[lat,long], destination[lat,lon]"""
+    """
+     current_location[lat,long], destination[lat,lon]
+    -> calculating distance between two points in kms roudned to 2 decimal places
+    """
     result = round(geodesic(starting_location, destination).km, 2)
     return result
 

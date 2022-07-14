@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     # 3rd party apps
     "crispy_forms",
     "crispy_bootstrap5",
+    "rest_framework",
+    "drf_spectacular",
 ]
 
 MIDDLEWARE = [
@@ -138,3 +140,13 @@ GEOIP_PATH = str(BASE_DIR.joinpath("geoip"))
 
 LOGIN_REDIRECT_URL = "geoapp:home"
 LOGOUT_REDIRECT_URL = "geoapp:home"
+REST_FRAMEWORK = {
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 50,
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Your Project API",
+    "DESCRIPTION": "Your project description",
+    "SERVE_INCLUDE_SCHEMA": False,
+}
