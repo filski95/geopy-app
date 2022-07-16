@@ -1,18 +1,13 @@
 import json
 
 from accounts.models import CustomUser
-from django.urls import path, reverse
+from django.urls import reverse
 from measurements.models import Measurement
 from rest_framework import status
 from rest_framework.reverse import reverse
 from rest_framework.test import APIRequestFactory, APITestCase, force_authenticate
 
 from .views import SingleMeasurementView
-
-urlpatterns = [
-    path("whateveryouwant/<int:pk>/", lambda request: None, name="apitestmodel-detail"),
-]
-from django.test import TestCase, override_settings
 
 
 class ApiViewsTest(APITestCase):
