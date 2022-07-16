@@ -1,11 +1,14 @@
 import json
 
 from accounts.models import CustomUser
+from django.test import TestCase
 from django.urls import reverse
 from measurements.models import Measurement
 from rest_framework import status
 from rest_framework.reverse import reverse
 from rest_framework.test import APIRequestFactory, APITestCase, force_authenticate
+
+from apis.serializers import CustomUserSerializer
 
 from .views import SingleMeasurementView
 
@@ -55,6 +58,7 @@ class ApiViewsTest(APITestCase):
     def test_measurements_detail_response(self):
         """testing detail view for measurement-detail with user logged in"""
 
+        # trying different approach
         request = self.factory.get(reverse("apis:measurement-detail", args=["1"]))
         view = SingleMeasurementView.as_view()
         force_authenticate(request, user=self.user)
@@ -117,3 +121,28 @@ class ApiViewsTest(APITestCase):
 
         self.assertEqual(response.status_code, 200)
         self.assertEqual(resp_content, expected_url)
+
+
+class UserSerializerHyperRelation(TestCase):
+    def setUp(self):
+        user = CustomUser.objects.create(
+            username="testuser",
+            email="test@gmail.com",
+            password="admin",
+            age=25,
+        )
+        record = Measurement.objects.create(
+            starting_location="Sosnowiec", destination="Bedzin", distance=50, user=user
+        )
+
+    def test_to_internal_value_correct_error_message(self):
+        queryset = CustomUser.objects.all()
+        serializer = CustomUserSerializer(queryset, many=True, context={"request": None})
+        expected = {"measurements": ["/api/measurements/1/"], "user_url": "/api/users/1/"}
+
+        # break down serialzier output ->[OrderedDict([('id', 1), ('measurements', ['/api/measurements/1/']),
+        measurements = serializer.data[0].get("measurements")
+        user_url = serializer.data[0].get("user_url")
+
+        self.assertEqual(measurements, expected["measurements"])
+        self.assertEqual(user_url, expected["user_url"])
